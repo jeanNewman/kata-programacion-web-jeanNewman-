@@ -27,7 +27,7 @@ h6 {
 }
 
 .bg-black {
-    background-color: #000 !important;
+    background-color: hsl(243, 87%, 12%) !important;
 }
 
 .bg-blue {
@@ -37,7 +37,7 @@ h6 {
 }
 
 .bg-light {
-    background-color: hsl(238, 22%, 44%) !important;
+    background-color: hsl(240, 75%, 98%)!important;
     padding-bottom: 3rem;
 }
 
@@ -107,6 +107,14 @@ h6 {
 .navbar-custom .navbar-nav .nav-item .nav-link {
     font-family: 'Raleway';
     text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+a.footer-link {
+    font-family: 'Raleway';
+    color: white;
     font-size: 0.8rem;
     font-weight: 700;
     letter-spacing: 0.1rem;
@@ -196,13 +204,20 @@ header.masthead .bg-circle-4 {
     }
 }
 
+.colored {
+    background-color: orange;
+    /* defines the background color of the image */
+    mask: url(/public/img/logo.svg) no-repeat center / contain;
+    -webkit-mask: url(/public/img/logo.svg) no-repeat center / contain;
+}
+
 .bg-primary {
     background-color: #ffffff !important;
 }
 
 .btn-primary {
-    background-color: hsl(243, 87%, 12%);
-    border-color: hsl(243, 87%, 12%);
+    background-color: hsl(224, 93%, 58%);
+    border-color: hsl(224, 93%, 58%);
 }
 
 .btn-primary:active,
